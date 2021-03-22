@@ -13,11 +13,11 @@
   <div id="test"></div>
 
   <div id="input_div">
-    <label for="input_name">name<br>
-    <input id="input_name" type="text"></label>
+    <label for="input-name">name<br>
+    <input id="input-name" type="text"></label>
   
-    <label for="input_message"><br>message<br>
-    <textarea id="input_message" cols="80" rows="4"></textarea></label>
+    <label for="input-message"><br>message<br>
+    <textarea id="input-message" cols="80" rows="4"></textarea></label>
 
     <br>
 
@@ -26,15 +26,20 @@
   </div>
   <div id="tweet_div">
     <div id="btn_background">
-      <button id="refresh">🔄 check new tweets</button>
+
+      <div id="refresh">🔄 check new tweets</div>
+      <div id="go-back-button">go back</div>
+      
     </div>
-    <ul>
-      <li> <p><a href="index.html" target="_self">ingikim</a><span class="timestamp">2021-03-15 14:26:20</span></p>education for real world</li>
-      <li> <p><a href="index.html" target="_blank">stevejobs</a><span class="timestamp">2011-01-25 21:13:10</span></p>stay hungry for real world</li>
-      <li> <p><a href="index.html" target="_blank">johnnykoo</a><span class="timestamp">2014-11-21 12:31:41</span></p>money is my life</li>
+    
+      <div id="writtenCommentsSpot"></div>
+      <!-- <li class="comments-li">
+        <div class="username"><a href="">김코딩</a></div>
+        <div class="comment">여러분 안녕하세요</div> -->
       
     </ul>
   </div>
+
 
   <script src="script.js"></script>
 </body>
